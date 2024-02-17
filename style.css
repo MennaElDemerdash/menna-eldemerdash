@@ -1,0 +1,139 @@
+body {
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%); 
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.all_content {
+    display: flex;
+    border-radius: 8px;
+    background-color: hsl(244, 38%, 16%);
+    width: 1000px;
+    height: 420px;
+}
+
+.text_content {
+    width: 50%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    margin-left: 75px;
+}
+
+.text_content h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.text_content h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.text_content p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 30px;
+    font: size 13px;
+    padding-right: 10px;
+    line-height: 1.6;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 87px;
+    width: 315px;
+     margin-bottom: 500px;
+      margin-top:55px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size:11px;
+    width: 55px;
+    text-transform: uppercase;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size:11px;
+    width: 55px;
+    text-transform: uppercase;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 11px;
+    width: 55px;
+    text-transform: uppercase;
+}
+
+.first span {
+    color: white;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 750; 
+    align-items: center;
+
+}
+
+.second span {
+    color: white;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 750; 
+    align-items: center;
+}
+
+.third span {
+    color: white;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 750;
+    align-items: center;
+}
+
+.right {
+    background-image: url(./stats-preview-card-component-main/images/image-header-desktop.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 420px;
+    display: flex;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.img_content {
+    background-color: hsl(277, 64%, 61%);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
